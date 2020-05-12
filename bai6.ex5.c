@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+void main () {
+	int a =80;
+	char b = 'C';
+	printf("\nThis is the number stored in 'a' %d",a);
+	printf("\nThis is a character interpreted from 'a'%c ",a);
+	printf("\nThis is also a character stored in 'b' %c",b);
+	printf("\nHey ! The character of 'b'is printed as a number ! 5d",b);
+}
